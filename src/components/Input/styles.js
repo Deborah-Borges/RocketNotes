@@ -24,9 +24,10 @@ export const Container = styled.div`
     &:placeholder {
         color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
+}
 
     > svg {
-        margin-left: 1rem;
+        margin-left: 16px;
     }
-}
+
 `
