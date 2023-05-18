@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import styled from "styled-components";
 
 export const Container = styled.header`
@@ -16,7 +18,7 @@ export const Container = styled.header`
  padding: 0 80px;
 `
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
     display: flex;
     align-items: center;
 
@@ -54,22 +56,3 @@ export const Logout = styled.button`
 
 `
 
-// import styled from 'styled-components';
-
-// export const Container = styled.header`
-//     grid-area: header;
-
-//     height: 105px;
-//     width: 100%;
-
-//     border-bottom-width: 1px;
-//     border-bottom-style: solid;
-//     border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
-
-//     display: flex;
-//     justify-content: space-between;
-
-//     padding: 0 80px;
-
-//     background: red;
-// `   

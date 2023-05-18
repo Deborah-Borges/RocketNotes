@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import { Container, Form, Background } from './styles'
 import { Input } from '../../components/Input'
 import { FiMail, FiLock, FiUser } from 'react-icons/fi'
 import { Button } from '../../components/Button'
 
-export function SingUp () {
+export function SignUp () {
     return (
         <Container>
              <Background />
@@ -33,9 +34,9 @@ export function SingUp () {
 
                 <Button title="Cadastrar" />
 
-                <a href="#">
+                <Link to="/">
                     Voltar para o login
-                </a>
+                </Link>
                     
             </Form>
 
